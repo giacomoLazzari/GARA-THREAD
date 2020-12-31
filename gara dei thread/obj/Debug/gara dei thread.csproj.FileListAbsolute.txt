@@ -1,0 +1,15 @@
+C:\Users\giacomo.lazzari\Desktop\gara dei thread\gara dei thread\bin\Debug\gara dei thread.exe.config
+C:\Users\giacomo.lazzari\Desktop\gara dei thread\gara dei thread\bin\Debug\gara dei thread.exe
+C:\Users\giacomo.lazzari\Desktop\gara dei thread\gara dei thread\bin\Debug\gara dei thread.pdb
+C:\Users\giacomo.lazzari\Desktop\gara dei thread\gara dei thread\obj\Debug\gara dei thread.csprojAssemblyReference.cache
+C:\Users\giacomo.lazzari\Desktop\gara dei thread\gara dei thread\obj\Debug\MainWindow.g.cs
+C:\Users\giacomo.lazzari\Desktop\gara dei thread\gara dei thread\obj\Debug\App.g.cs
+C:\Users\giacomo.lazzari\Desktop\gara dei thread\gara dei thread\obj\Debug\gara dei thread_MarkupCompile.cache
+C:\Users\giacomo.lazzari\Desktop\gara dei thread\gara dei thread\obj\Debug\gara dei thread_MarkupCompile.lref
+C:\Users\giacomo.lazzari\Desktop\gara dei thread\gara dei thread\obj\Debug\MainWindow.baml
+C:\Users\giacomo.lazzari\Desktop\gara dei thread\gara dei thread\obj\Debug\gara dei thread.g.resources
+C:\Users\giacomo.lazzari\Desktop\gara dei thread\gara dei thread\obj\Debug\gara_dei_thread.Properties.Resources.resources
+C:\Users\giacomo.lazzari\Desktop\gara dei thread\gara dei thread\obj\Debug\gara dei thread.csproj.GenerateResource.cache
+C:\Users\giacomo.lazzari\Desktop\gara dei thread\gara dei thread\obj\Debug\gara dei thread.csproj.CoreCompileInputs.cache
+C:\Users\giacomo.lazzari\Desktop\gara dei thread\gara dei thread\obj\Debug\gara dei thread.exe
+C:\Users\giacomo.lazzari\Desktop\gara dei thread\gara dei thread\obj\Debug\gara dei thread.pdb
