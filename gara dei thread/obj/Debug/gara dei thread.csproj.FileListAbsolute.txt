@@ -13,3 +13,18 @@ C:\Users\giacomo.lazzari\Desktop\gara dei thread\gara dei thread\obj\Debug\gara 
 C:\Users\giacomo.lazzari\Desktop\gara dei thread\gara dei thread\obj\Debug\gara dei thread.csproj.CoreCompileInputs.cache
 C:\Users\giacomo.lazzari\Desktop\gara dei thread\gara dei thread\obj\Debug\gara dei thread.exe
 C:\Users\giacomo.lazzari\Desktop\gara dei thread\gara dei thread\obj\Debug\gara dei thread.pdb
+D:\Programmi\TPS-I\GARA-THREAD\gara dei thread\bin\Debug\gara dei thread.exe.config
+D:\Programmi\TPS-I\GARA-THREAD\gara dei thread\bin\Debug\gara dei thread.exe
+D:\Programmi\TPS-I\GARA-THREAD\gara dei thread\bin\Debug\gara dei thread.pdb
+D:\Programmi\TPS-I\GARA-THREAD\gara dei thread\obj\Debug\gara dei thread.csprojAssemblyReference.cache
+D:\Programmi\TPS-I\GARA-THREAD\gara dei thread\obj\Debug\MainWindow.g.cs
+D:\Programmi\TPS-I\GARA-THREAD\gara dei thread\obj\Debug\App.g.cs
+D:\Programmi\TPS-I\GARA-THREAD\gara dei thread\obj\Debug\gara dei thread_MarkupCompile.cache
+D:\Programmi\TPS-I\GARA-THREAD\gara dei thread\obj\Debug\gara dei thread_MarkupCompile.lref
+D:\Programmi\TPS-I\GARA-THREAD\gara dei thread\obj\Debug\MainWindow.baml
+D:\Programmi\TPS-I\GARA-THREAD\gara dei thread\obj\Debug\gara dei thread.g.resources
+D:\Programmi\TPS-I\GARA-THREAD\gara dei thread\obj\Debug\gara_dei_thread.Properties.Resources.resources
+D:\Programmi\TPS-I\GARA-THREAD\gara dei thread\obj\Debug\gara dei thread.csproj.GenerateResource.cache
+D:\Programmi\TPS-I\GARA-THREAD\gara dei thread\obj\Debug\gara dei thread.csproj.CoreCompileInputs.cache
+D:\Programmi\TPS-I\GARA-THREAD\gara dei thread\obj\Debug\gara dei thread.exe
+D:\Programmi\TPS-I\GARA-THREAD\gara dei thread\obj\Debug\gara dei thread.pdb

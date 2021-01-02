@@ -38,7 +38,7 @@ namespace gara_dei_thread
                 Thread.Sleep(TimeSpan.FromSeconds(1));
                 this.Dispatcher.BeginInvoke(new Action(() =>
                 {
-                    imgBeta.Margin = new Thickness(i, 100, 0, 0);
+                    imgBeta.Margin = new Thickness(i, 40, 0, 0);
                     
                 }));
             }

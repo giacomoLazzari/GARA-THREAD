@@ -56,6 +56,14 @@ namespace gara_dei_thread {
         #line default
         #line hidden
         
+        
+        #line 12 "..\..\MainWindow.xaml"
+        [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
+        internal System.Windows.Controls.Image imgAerox;
+        
+        #line default
+        #line hidden
+        
         private bool _contentLoaded;
         
         /// <summary>
@@ -91,6 +99,9 @@ namespace gara_dei_thread {
             return;
             case 2:
             this.imgBeta = ((System.Windows.Controls.Image)(target));
+            return;
+            case 3:
+            this.imgAerox = ((System.Windows.Controls.Image)(target));
             return;
             }
             this._contentLoaded = true;
