@@ -24,6 +24,7 @@ namespace gara_dei_thread
         readonly Uri uriBeta = new Uri("beta.png", UriKind.Relative);
         readonly Uri uriAerox = new Uri("aerox.jpg", UriKind.Relative);
         readonly Uri uriPanigale = new Uri("Panigale.jpg", UriKind.Relative);
+        List<string> classifica = new List<string>();
         public MainWindow()
         {
             InitializeComponent();
@@ -34,53 +35,82 @@ namespace gara_dei_thread
             ImageSource immPanigale = new BitmapImage(uriPanigale);
             imgPanigale.Source = immPanigale;
             Thread t1 = new Thread(new ThreadStart(muoviBeta));
-            Thread t2 = new Thread(new ThreadStart(MuoviAerox));
-            Thread t3 = new Thread(new ThreadStart(MuoviPanigale));
             t1.Start();
+            Thread t2 = new Thread(new ThreadStart(MuoviAerox));
             t2.Start();
+            Thread t3 = new Thread(new ThreadStart(MuoviPanigale));
             t3.Start();
+
+            t1.Join();
+            t2.Join();
+            t3.Join();
+            for(int i = 0;i<classifica.Count;i++)
+            {
+                lstClassifica.Items.Add(classifica[i]);
+            }
         }
 
         public void muoviBeta()
         {
-            for (int i = 100; i < 500; i += 50)
+            try
             {
-                Thread.Sleep(TimeSpan.FromSeconds(1));
-                this.Dispatcher.BeginInvoke(new Action(() =>
+                for (int i = 100; i < 500; i += 50)
                 {
-                    imgBeta.Margin = new Thickness(i, 40, 0, 0);
-                    
-                }));
+                    Thread.Sleep(TimeSpan.FromSeconds(1));
+                    this.Dispatcher.BeginInvoke(new Action(() =>
+                    {
+                        imgBeta.Margin = new Thickness(i, 40, 0, 0);
+
+                    }));
+                }
+                classifica.Add("Beta");
             }
-            lstClassifica.Items.Add("Beta");
+            catch(Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
         }
 
         public void MuoviAerox()
         {
-            for (int i = 100; i < 500; i += 50)
+            try
             {
-                Thread.Sleep(TimeSpan.FromSeconds(1));
-                this.Dispatcher.BeginInvoke(new Action(() =>
+                for (int i = 100; i < 500; i += 50)
                 {
-                    imgAerox.Margin = new Thickness(i, 150, 0, 0);
+                    Thread.Sleep(TimeSpan.FromSeconds(1));
+                    this.Dispatcher.BeginInvoke(new Action(() =>
+                    {
+                        imgAerox.Margin = new Thickness(i, 150, 0, 0);
 
-                }));
+                    }));
+                }
+                classifica.Add("Aerox");
             }
-            lstClassifica.Items.Add("Aerox");
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
         }
 
         public void MuoviPanigale()
         {
-            for (int i = 100; i < 500; i += 50)
+            try
             {
-                Thread.Sleep(TimeSpan.FromSeconds(1));
-                this.Dispatcher.BeginInvoke(new Action(() =>
+                for (int i = 100; i < 500; i += 50)
                 {
-                    imgPanigale.Margin = new Thickness(i, 250, 0, 0);
+                    Thread.Sleep(TimeSpan.FromSeconds(1));
+                    this.Dispatcher.BeginInvoke(new Action(() =>
+                    {
+                        imgPanigale.Margin = new Thickness(i, 250, 0, 0);
 
-                }));
+                    }));
+                }
+                classifica.Add("Panigale");
             }
-            lstClassifica.Items.Add("Panigale");
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
         }
 
   
